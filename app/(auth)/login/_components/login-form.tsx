@@ -11,6 +11,7 @@ import { Field, FieldError, FieldLabel } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 
 import { type LoginFormData, loginSchema } from "../schema";
+import { notify } from "@/lib/notify";
 
 export function LoginForm() {
   const router = useRouter();
@@ -29,9 +30,11 @@ export function LoginForm() {
 
     console.log(data);
 
-    router.push("/dashboard");
+    notify.success("Login realizado com sucesso!");
 
     setIsPending(false);
+
+    router.push("/dashboard");
   }
 
   return (
