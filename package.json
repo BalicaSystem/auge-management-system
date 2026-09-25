@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "next": "^15.5.26",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "name": "auge-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.6",
+    "@types/react": "19.3.0",
+    "typescript": "5.8.2"
+  },
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
