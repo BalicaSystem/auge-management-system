@@ -8,6 +8,7 @@
   "author": "",
   "license": "MIT",
   "description": "",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "lint:check": "prettier --check .",
@@ -18,12 +19,14 @@
   "dependencies": {
     "jest": "^30.5.2",
     "next": "^15.5.26",
+    "pg": "^8.23.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "20.17.6",
+    "@types/pg": "^8.23.1",
     "@types/react": "19.3.0",
     "prettier": "^3.9.9",
     "typescript": "5.8.2"
