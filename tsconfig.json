@@ -9,6 +9,7 @@
     "noEmit": true,
     "incremental": true,
     "module": "esnext",
+    "ignoreDeprecations": "6.0",
     "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
