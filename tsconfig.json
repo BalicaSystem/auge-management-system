@@ -15,6 +15,7 @@
     "paths": {
       "@/*": ["./*"]
     },
+    "resolvePackageJsonImports": true,
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
